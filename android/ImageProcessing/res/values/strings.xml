@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">Imageprocessing</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Imageprocessing</string>
+    <string name="new_">Imageprocessing</string>
+
+</resources>

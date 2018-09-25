@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+        
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:orientation="horizontal" > 
+     <Button
+            android:layout_width="100sp"
+        	android:layout_height="match_parent"
+            android:layout_gravity="right"
+		    android:layout_weight="1"
+            android:onClick="清空"
+            android:text="清空"
+            android:textSize="10sp" />
+     
+	<TextView
+		android:id="@+id/TextView"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="10"
+		android:layout_margin="20dp" />
+	
+    <Button
+            android:layout_width="100sp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+		    android:layout_weight="1"
+            android:onClick="返回"
+            android:text="返回"
+            android:textSize="10sp" />	
+        
+    </LinearLayout>  
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="9"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:orientation="horizontal">
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="15"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:orientation="vertical">
+              
+	<ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="150dp" 
+            android:src="@drawable/abc"/>
+	<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:orientation="horizontal">"
+        
+        
+	<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:orientation="vertical">
+     <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:onClick="左"
+            android:text="左"
+            android:textSize="30sp" />  
+     <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:onClick="set1"
+            android:text="set1"
+            android:textSize="20sp" /> 
+     <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:onClick="wei1"
+            android:text="wei1"
+            android:textSize="20sp" />          
+    </LinearLayout>    
+    
+	<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:orientation="vertical">
+     <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:onClick="右"
+            android:text="右"
+            android:textSize="30sp" />  
+     <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:onClick="set2"
+            android:text="set2"
+            android:textSize="20sp" /> 
+     <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:onClick="wei2"
+            android:text="wei2"
+            android:textSize="20sp" />          
+    </LinearLayout>  
+    
+	<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:orientation="vertical">
+     <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:onClick="上"
+            android:text="上"
+            android:textSize="30sp" />  
+     <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:onClick="set3"
+            android:text="set3"
+            android:textSize="20sp" /> 
+     <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:onClick="wei3"
+            android:text="wei3"
+            android:textSize="20sp" />          
+    </LinearLayout>          
+	<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:orientation="vertical">
+     <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:onClick="下"
+            android:text="下"
+            android:textSize="30sp" />  
+     <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:onClick="set4"
+            android:text="set4"
+            android:textSize="20sp" /> 
+     <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:onClick="wei4"
+            android:text="wei4"
+            android:textSize="20sp" />          
+    </LinearLayout>          
+    </LinearLayout>    
+    </LinearLayout>
+        
+         "
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="9"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:orientation="vertical">"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:orientation="horizontal" > 
+   
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:onClick="前进"
+            android:text="前进"
+            android:textSize="50sp" />
+    </LinearLayout>    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:orientation="horizontal" > 
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:onClick="左转"
+            android:text="左转"
+            android:textSize="50sp" />
+
+
+        <Button
+            android:splitMotionEvents="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:onClick="寻迹"
+            android:text="寻迹"
+            android:textSize="50sp" />
+        
+
+        <Button
+            android:splitMotionEvents="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:onClick="右转"
+            android:text="右转"
+            android:textSize="50sp" />
+        
+    </LinearLayout>    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:orientation="horizontal" > 
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:onClick="后退"
+            android:text="后退"
+            android:textSize="50sp" />
+
+    </LinearLayout>    
+    </LinearLayout>    
+    </LinearLayout>    
+    
+		<LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:orientation="horizontal" > 
+		    <TextView 
+		        android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:gravity="center_horizontal"
+				android:text="speed"
+				android:textSize="10dp"
+		        />
+		    <EditText
+		        android:id="@+id/speed_data" 
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="2"
+		        android:gravity="center_horizontal"
+		        android:text="80"
+		        android:inputType="number"
+		        />
+		    <TextView 
+		        android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+			    android:gravity="center_horizontal"
+				android:text="coded_disc"
+				android:textSize="10dp"
+		        />
+		    <EditText
+		        android:id="@+id/coded_disc_data" 
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="2"
+		        android:gravity="center_horizontal"
+		        android:text="80"
+		        android:inputType="number"
+		        />	    
+		</LinearLayout>
+ 
+		<LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:orientation="horizontal" > 
+		    <TextView 
+		        android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:gravity="center_horizontal"
+				android:text="参数1"
+				android:textSize="10dp"
+		        />
+		    <EditText
+		        android:id="@+id/test1" 
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="2"
+		        android:gravity="center_horizontal"
+		        android:text="test1"
+		        android:inputType="text"
+		        />
+		    <TextView 
+		        android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+			    android:gravity="center_horizontal"
+				android:text="参数2"
+				android:textSize="10dp"
+		        />
+		    <EditText
+		        android:id="@+id/test2" 
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="2"
+		        android:gravity="center_horizontal"
+		        android:text="test2"
+		        android:inputType="text"
+		        />	    
+		    <TextView 
+		        android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+			    android:gravity="center_horizontal"
+				android:text="参数3"
+				android:textSize="10dp"
+		        />
+		    <EditText
+		        android:id="@+id/test3" 
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="2"
+		        android:gravity="center_horizontal"
+		        android:text="test3"
+		        android:inputType="text"
+		        />	    
+		    <TextView 
+		        android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+			    android:gravity="center_horizontal"
+				android:text="参数4"
+				android:textSize="10dp"
+		        />
+		    <EditText
+		        android:id="@+id/test4" 
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="2"
+		        android:gravity="center_horizontal"
+		        android:text="test4"
+		        android:inputType="text"
+		        />	    
+		</LinearLayout>
+		
+		
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:orientation="horizontal" > 
+
+        <Button
+		    android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+		    android:layout_weight="1"
+            android:onClick="主车控制"
+            android:text="主车控制"
+            android:textSize="30sp" />
+
+
+        <Button
+		    android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+		    android:layout_weight="1"
+            android:onClick="ack"
+            android:text="ack"
+            android:textSize="30sp" />
+        
+
+        <Button
+		    android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+		    android:layout_weight="1"
+            android:onClick="状态"
+            android:text="状态"
+            android:textSize="30sp" />
+        
+        <Button
+		    android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+		    android:layout_weight="1"
+            android:onClick="从车控制"
+            android:text="从车控制"
+            android:textSize="30sp" />
+    </LinearLayout>    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:orientation="horizontal" > 
+
+        <Button
+		    android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+		    android:layout_weight="1"
+            android:onClick="道闸"
+            android:text="道闸"
+            android:textSize="30sp" />
+
+
+        <Button
+		    android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+		    android:layout_weight="1"
+            android:onClick="随机语音"
+            android:text="随机语音"
+            android:textSize="30sp" />
+        
+
+        <Button
+		    android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+		    android:layout_weight="1"
+            android:onClick="特定语音"
+            android:text="特定语音"
+            android:textSize="30sp" />
+        
+        <Button
+		    android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+		    android:layout_weight="1"
+            android:onClick="无线电"
+            android:text="无线电"
+            android:textSize="30sp" />
+    </LinearLayout>    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:orientation="horizontal" > 
+
+        <Button
+		    android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+		    android:layout_weight="1"
+            android:onClick="mask_M"
+            android:text="mask_M"
+            android:textSize="30sp" />
+
+
+        <Button
+		    android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+		    android:layout_weight="1"
+            android:onClick="目标坐标"
+            android:text="目标坐标"
+            android:textSize="30sp" />
+        
+
+        <Button
+		    android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+		    android:layout_weight="1"
+            android:onClick="当前坐标"
+            android:text="当前坐标"
+            android:textSize="30sp" />
+        
+        <Button
+		    android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+		    android:layout_weight="1"
+            android:onClick="beep"
+            android:text="beep"
+            android:textSize="30sp" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:orientation="horizontal" > 
+
+        <Button
+		    android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+		    android:layout_weight="1"
+            android:onClick="计时开"
+            android:text="计时开"
+            android:textSize="30sp" />
+
+
+        <Button
+		    android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+		    android:layout_weight="1"
+            android:onClick="计时关"
+            android:text="计时关"
+            android:textSize="30sp" />
+        
+
+        <Button
+		    android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+		    android:layout_weight="1"
+            android:onClick="计时清零"
+            android:text="计时清零"
+            android:textSize="30sp" />
+        
+        <Button
+		    android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+		    android:layout_weight="1"
+            android:onClick="LED显示"
+            android:text="LED显示"
+            android:textSize="30sp" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:orientation="horizontal" > 
+
+        <Button
+		    android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+		    android:layout_weight="1"
+            android:onClick="LED显示距离"
+            android:text="LED显示距离"
+            android:textSize="20sp" />
+
+
+        <Button
+		    android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+		    android:layout_weight="1"
+            android:onClick="红外警报"
+            android:text="红外警报"
+            android:textSize="20sp" />
+        
+
+        <Button
+		    android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+		    android:layout_weight="1"
+            android:onClick="立体车牌"
+            android:text="立体车牌"
+            android:textSize="20sp" />
+        
+        
+        <Button
+		    android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+		    android:layout_weight="1"
+            android:onClick="dir_change"
+            android:text="dir_change"
+            android:textSize="20sp" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:orientation="horizontal" > 
+
+
+        <Button
+		    android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+		    android:layout_weight="1"
+            android:onClick="红外"
+            android:text="红外"
+            android:textSize="30sp" />
+
+        <Button
+		    android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+		    android:layout_weight="1"
+            android:onClick="照片下翻"
+            android:text="照片下翻"
+            android:textSize="30sp" />
+        
+
+        <Button
+		    android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+		    android:layout_weight="1"
+            android:onClick="车牌红外"
+            android:text="车牌红外"
+            android:textSize="30sp" />
+        
+        <Button
+		    android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+		    android:layout_weight="1"
+            android:onClick="光档位"
+            android:text="光档位"
+            android:textSize="30sp" />
+    </LinearLayout>
+    
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:orientation="horizontal" > 
+
+
+        <Button
+		    android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+		    android:layout_weight="1"
+            android:onClick="rfid打开"
+            android:text="rfid打开"
+            android:textSize="30sp" />
+
+        <Button
+		    android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+		    android:layout_weight="1"
+            android:onClick="rfid"
+            android:text="rfid"
+            android:textSize="30sp" />
+        
+
+        <Button
+		    android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+		    android:layout_weight="1"
+            android:onClick="位置回传"
+            android:text="位置回传"
+            android:textSize="30sp" />
+        
+        <Button
+		    android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+		    android:layout_weight="1"
+            android:onClick="etc打开"
+            android:text="etc打开"
+            android:textSize="30sp" />
+    </LinearLayout>        
+     
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:orientation="horizontal" > 
+
+
+        <Button
+		    android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+		    android:layout_weight="1"
+            android:onClick="语音控制"
+            android:text="语音控制"
+            android:textSize="30sp" />
+
+        <Button
+		    android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+		    android:layout_weight="1"
+            android:onClick="档位回传"
+            android:text="档位回传"
+            android:textSize="30sp" />
+        
+
+        <Button
+		    android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+		    android:layout_weight="1"
+            android:onClick="TFT指定图片"
+            android:text="TFT指定图片"
+            android:textSize="20sp" />
+        
+        <Button
+		    android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:splitMotionEvents="true"
+		    android:layout_weight="1"
+            android:onClick="TFT上翻"
+            android:text="TFT上翻"
+            android:textSize="30sp" />
+    </LinearLayout>        
+     
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:orientation="horizontal" > 
+
+
+        <Button
+		    android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+		    android:layout_weight="1"
+            android:onClick="TFT显示距离"
+            android:text="TFT显示距离"
+            android:textSize="20sp" />
+
+        <Button
+		    android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+		    android:layout_weight="1"
+            android:onClick="TFT显示数据"
+            android:text="TFT显示数据"
+            android:textSize="20sp" />
+        
+
+        <Button
+		    android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+		    android:layout_weight="1"
+            android:onClick="TFT计时开"
+            android:text="TFT计时开"
+            android:textSize="30sp" />
+        
+        <Button
+		    android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+		    android:layout_weight="1"
+            android:onClick="TFT计时关"
+            android:text="TFT计时关"
+            android:textSize="30sp" />
+    </LinearLayout>     
+      
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:orientation="horizontal" > 
+
+
+        <Button
+		    android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+		    android:layout_weight="1"
+            android:onClick="二维码侧"
+            android:text="二维码侧"
+            android:textSize="20sp" />
+
+        <Button
+		    android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+		    android:layout_weight="1"
+            android:onClick="二维码前"
+            android:text="二维码前"
+            android:textSize="20sp" />
+        
+
+        <Button
+		    android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+		    android:layout_weight="1"
+            android:onClick="形状颜色"
+            android:text="形状颜色"
+            android:textSize="30sp" />
+        
+        <Button
+		    android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+		    android:layout_weight="1"
+            android:onClick="车牌"
+            android:text="车牌"
+            android:textSize="30sp" />
+    </LinearLayout>         
+</LinearLayout>
